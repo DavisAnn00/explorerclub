@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Explorer's Club - Join Now</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">The Explorer's Club</div>
+    <nav>
+      <ul>
+        <li><a href="clubp.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Registration Section -->
+  <section class="registration">
+    <h1>Join The Explorer's Club</h1>
+    <p>Become a member today to unlock exclusive programs and events!</p>
+
+    <!-- Registration Form -->
+    <form id="registerForm" action="register.php" method="POST">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="otherNames">Other Names:</label>
+      <input type="text" id="otherNames" name="otherNames" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="text" id="mobile" name="mobile" required>
+
+      <button type="submit">Join Now</button>
+    </form>
+
+    <div id="confirmationMessage" style="display:none;">
+      <h2>Happy to have you as a part of The Explorer's Club!</h2>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 The Explorer's Club. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
