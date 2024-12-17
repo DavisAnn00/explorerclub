@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Explorer's Club</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">The Explorer's Club</div>
+    <nav>
+      <ul>
+        <li><a href=programs.html>Programs</a></li>
+        <li><a href=contact.html>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Empowering individuals. Building Futures.</h1>
+      <p>Join our community to explore opportunities, build friendships, and grow together.</p>
+      <div class="cta-buttons">
+        <a href="membership.html" class="btn">Join Now</a>
+        <a href="donate.html" class="btn secondary">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h2>Welcome to Explorer's Club</h2>
+    <p>
+      At The Explorer's Club, we inspire and empower boys through sports, arts, and education. Our programs are designed to nurture their potential and help them become confident, responsible individuals.
+    </p>
+    <p>Our mission is to inspire growth, creativity, and teamwork while fostering a sense of belonging.</p>
+  </section>
+    
+  <!-- About Us Section -->
+  <section class="about">
+    <h1>About Explorer's Club</h1>
+    <p>At the Explorer's Club! We are dedicated to empowering individuals through enriching programs, fun activities, and a strong sense of community.</p>
+    <div class="about-content">
+      <div class="history">
+        <h2>Our History</h2>
+        <p>Founded in 2000, Explorer's Club has grown into a community hub that fosters personal development and builds friendships through sports, arts, and education.</p>
+      </div>
+      
+      <div class="mission">
+        <h2>Our Mission</h2>
+        <p>To inspire and empower individuals to achieve their fullest potential through engaging programs, positive mentorship, and community support.</p>
+      </div>
+    
+      <div class="team">
+        <h2>Meet the Team</h2>
+        <p>Our dedicated leaders are committed to creating a welcoming environment where every boy feels valued and supported.</p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <style>
+    /* Container with flexbox */
+    .image-container {
+        display: flexbox;
+        flex-direction: row; /* Vertically align images */
+        align-items: center; /* Center images horizontally */
+        gap: 15px; /* Space between images */
+        margin: 10px;
+    }
+
+    /* Image styling */
+    .image-container img {
+        width: 300px; /* Set image width */
+        height: auto; /* Maintain aspect ratio */
+        border: 2px solid #ddd; /* Optional border */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    }
+
+    /* Optional styling for the body */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+</style>
+</head>
+<body>
+<div class="image-container">
+    <img src="tourmain.jpeg" alt="Team Building">
+    <img src="tour1.jpeg" alt="Leadership">
+    <img src="tour2.jpeg" alt="Sport">
+</div>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <h2>Learn More About Us</h2>
+    <p>Watch the video below to see how the Explorer's Club is making a difference.</p>
+    <div class="video-container">
+      <iframe 
+        src="Dancing Club Stock Video Free Download..mp4"
+        width="800" 
+        height="450" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter to receive the latest updates, events, and announcements.</p>
+    <form>
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+
+   <!-- Menu Icon -->
+   <div class="menu-icon" onclick="toggleDrawer()">
+    &#9776;
+  </div>
+
+  <!-- Drawer Menu -->
+  <div id="drawer" class="drawer">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleDrawer()">&times;</a>
+    <a href="programs.html">Programs</a>
+    <a href="blog.html">Blog</a>
+    <a href="registration.html">Registration</a></li>
+    <a href="donate.html">Funds&Donation</a></li>
+    <a href="contact.html">Contact</a>
+  </div>
+ 
+  <!-- Footer -->
+  <section
+
+      < class="social-links">
+        <a href="https://twitter.com/fcb_ann" aria-label="X">
+          <img src="X.png" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/i.davis06/" aria-label="Instagram">
+          <img src="Instagram.jpeg" alt="Instagram">
+          </a>
+    <p>&copy; 2024 The Explorer's Club. All rights reserved.</p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
